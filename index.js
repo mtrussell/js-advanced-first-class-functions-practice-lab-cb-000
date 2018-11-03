@@ -9,8 +9,12 @@ function logDriverNames(drivers) {
 
 
 
-function logDriversByHometown() {
-
+function logDriversByHometown(drivers, hometown) {
+  drivers.forEach(function (curr){
+    if (curr.hometown === hometown){
+      console.log(curr.name);
+    }
+  });
 }
 
 
