@@ -38,6 +38,7 @@ function driversByName(drivers) {
     const driverB = b.name;
     return a.localeCompare(b);
   };
+  return driversCopy;
 }
 
 
