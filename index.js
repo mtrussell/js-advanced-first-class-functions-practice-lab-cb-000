@@ -23,6 +23,7 @@ function driversByRevenue(drivers) {
   const lowToHighRev = drivers.sort(function (a, b){
     return a-b;
   });
+  return lowToHighRev;
 }
 
 
