@@ -50,7 +50,7 @@ function totalRevenue(drivers) {
     return acc + curr.revenue;
   };
 
-  drivers.reduce(reduceRevenue, 0);
+  return drivers.reduce(reduceRevenue, 0);
 }
 
 
