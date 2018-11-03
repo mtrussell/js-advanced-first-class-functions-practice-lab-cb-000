@@ -44,9 +44,12 @@ function driversByName(drivers) {
 
 
 function totalRevenue(drivers) {
-  drivers.reduce(function(acc, curr){
-    return acc + curr.revenue;
-  }, 0);
+  const reduceRevenue = function (acc, curr){
+    console.log(acc);
+    console.log(curr.revenue);
+  };
+
+  drivers.reduce(reduceRevenue, 0);
 }
 
 
