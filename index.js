@@ -25,7 +25,7 @@ function driversByRevenue(drivers) {
     const revB = b.revenue;
     return revA - revB;
   });
-  return driversCopy;
+  return drivers;
 }
 
 
