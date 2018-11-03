@@ -19,8 +19,10 @@ function logDriversByHometown(drivers, hometown) {
 
 
 
-function driversByRevenue() {
-
+function driversByRevenue(drivers) {
+  const lowToHighRev = drivers.sort(function (a, b){
+    return a-b;
+  });
 }
 
 
