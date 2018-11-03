@@ -47,6 +47,7 @@ function totalRevenue(drivers) {
   const reduceRevenue = function (acc, curr){
     console.log(acc);
     console.log(curr.revenue);
+    return acc + curr.revenue;
   };
 
   drivers.reduce(reduceRevenue, 0);
